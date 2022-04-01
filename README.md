@@ -1,13 +1,14 @@
-# FNN_Read_handwrite
+# FNN_Read_handwrite（前馈神经网络实现手写数字识别）
 如何使用此代码？
 环境：
-win10
-python3.9+
+操作系统：win10
+版本：python3.9+
 CUDA 工具包 10.2 配合cuDNN v7.6.5
-PaddlePaddle2.2
-GPU:GTX 1050 Ti
+平台：PaddlePaddle2.2
+硬件：GPU:GTX 1050 Ti
 
 操作过程：
 1：安装所需模块
 2：确保网络畅通
 3：部分路径可能需要修改
+4：预测阶段需自行提供预测数据（为黑底白字的手写数字图片）
